@@ -7,6 +7,10 @@
     -webkit-tap-highlight-color: transparent;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -248,16 +252,10 @@ h6 {
 
 @media screen and (max-width: 400px) {
     #signin {
-        width: 95%;
+        width: 98%;
     }
 
     #signin .btn-secondary {
         width: auto;
-    }
-}
-
-@media screen and (max-width: 300px) {
-    #signin {
-        width: 98%;
     }
 }
