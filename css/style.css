@@ -255,6 +255,15 @@ h6 {
         width: 98%;
     }
 
+    #signin form {
+        width: 90%;
+    }
+
+    #signin .or,
+    #signin .links {
+        width: 85%;
+    }
+
     #signin .btn-secondary {
         width: auto;
     }
