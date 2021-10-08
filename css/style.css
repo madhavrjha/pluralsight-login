@@ -2,6 +2,9 @@
 
 * {
     box-sizing: border-box;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -232,6 +235,10 @@ h6 {
 }
 
 @media screen and (max-width: 500px) {
+    #signin {
+        width: 90%;
+    }
+
     #signin .logo img {
         width: 80%;
         display: block;
@@ -239,8 +246,18 @@ h6 {
     }
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 400px) {
+    #signin {
+        width: 95%;
+    }
+
     #signin .btn-secondary {
         width: auto;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    #signin {
+        width: 98%;
     }
 }
